@@ -1,0 +1,9 @@
+# Git archives (used by Composer) will exclude these files
+/js/node_modules export-ignore
+/js/package-lock.json export-ignore
+/.gitignore export-ignore
+/.gitattributes export-ignore
+/README.md export-ignore
+
+# But keep these files
+!/js/dist/

@@ -1,0 +1,14 @@
+jiushutech-force-password-change:
+    forum:
+        modal:
+            title: 비밀번호 변경
+            help: 보안상의 이유로 계속하기 전에 비밀번호를 변경해야 합니다.
+            new_password_placeholder: 새 비밀번호
+            confirm_password_placeholder: 비밀번호 확인
+            submit_button: 비밀번호 변경
+            passwords_not_match: 비밀번호가 일치하지 않습니다.
+            password_too_short: 비밀번호는 최소 8자 이상이어야 합니다.
+            success: 비밀번호가 성공적으로 변경되었습니다!
+    admin:
+        permissions:
+            bypass_force_change: 강제 비밀번호 변경 건너뛰기

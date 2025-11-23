@@ -1,0 +1,14 @@
+jiushutech-force-password-change:
+    forum:
+        modal:
+            title: Alterar senha
+            help: Por motivos de segurança, você deve alterar sua senha antes de continuar.
+            new_password_placeholder: Nova senha
+            confirm_password_placeholder: Confirmar senha
+            submit_button: Alterar senha
+            passwords_not_match: As senhas não coincidem.
+            password_too_short: A senha deve ter pelo menos 8 caracteres.
+            success: Senha alterada com sucesso!
+    admin:
+        permissions:
+            bypass_force_change: Ignorar alteração forçada de senha

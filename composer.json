@@ -1,0 +1,58 @@
+{
+    "name": "jiushutech/force-password-change",
+    "description": "Force users to change password on first login",
+    "keywords": ["flarum", "extension", "password", "security"],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/jiushutech/force-password-change/issues",
+        "source": "https://github.com/jiushutech/force-password-change"
+    },
+    "require": {
+        "flarum/core": "^1.8.0"
+    },
+    "authors": [
+        {
+            "name": "JiushuTech",
+            "email": "it_admin@ninesure.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "JiushuTech\\ForcePasswordChange\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Force Password Change",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-key",
+                "color": "#e74c3c",
+                "backgroundColor": "#fff"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "css": false
+            }
+        }
+    },
+    "archive": {
+        "exclude": [
+            "/js/node_modules",
+            "/js/package-lock.json",
+            "/js/.npm",
+            "/.git",
+            "/.github",
+            "/tests",
+            "/.gitignore",
+            "/.gitattributes"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

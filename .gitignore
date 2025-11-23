@@ -1,0 +1,31 @@
+# Dependencies
+/js/node_modules/
+/node_modules/
+/vendor/
+
+# IDE
+/.idea/
+/.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Build files (开发时的临时文件)
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+/js/dist-typings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Composer
+/composer.lock
+
+# 注意：js/dist/ 目录不应该被忽略，因为它包含编译后的文件
+# 这些文件需要被提交，这样用户安装后可以直接使用，无需编译

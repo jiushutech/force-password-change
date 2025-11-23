@@ -1,0 +1,14 @@
+jiushutech-force-password-change:
+    forum:
+        modal:
+            title: Αλλαγή κωδικού πρόσβασης
+            help: Για λόγους ασφαλείας, πρέπει να αλλάξετε τον κωδικό πρόσβασής σας πριν συνεχίσετε.
+            new_password_placeholder: Νέος κωδικός πρόσβασης
+            confirm_password_placeholder: Επιβεβαίωση κωδικού πρόσβασης
+            submit_button: Αλλαγή κωδικού πρόσβασης
+            passwords_not_match: Οι κωδικοί πρόσβασης δεν ταιριάζουν.
+            password_too_short: Ο κωδικός πρόσβασης πρέπει να αποτελείται από τουλάχιστον 8 χαρακτήρες.
+            success: Ο κωδικός πρόσβασης άλλαξε επιτυχώς!
+    admin:
+        permissions:
+            bypass_force_change: Παράκαμψη αναγκαστικής αλλαγής κωδικού πρόσβασης

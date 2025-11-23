@@ -1,0 +1,14 @@
+jiushutech-force-password-change:
+    forum:
+        modal:
+            title: Изменить пароль
+            help: По соображениям безопасности вы должны изменить свой пароль, прежде чем продолжить.
+            new_password_placeholder: Новый пароль
+            confirm_password_placeholder: Подтвердите пароль
+            submit_button: Изменить пароль
+            passwords_not_match: Пароли не совпадают.
+            password_too_short: Пароль должен содержать не менее 8 символов.
+            success: Пароль успешно изменен!
+    admin:
+        permissions:
+            bypass_force_change: Пропустить принудительную смену пароля

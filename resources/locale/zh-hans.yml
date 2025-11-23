@@ -1,0 +1,14 @@
+jiushutech-force-password-change:
+    forum:
+        modal:
+            title: 修改密码
+            help: 出于安全原因，您必须先修改密码才能继续使用。
+            new_password_placeholder: 新密码
+            confirm_password_placeholder: 确认密码
+            submit_button: 修改密码
+            passwords_not_match: 两次输入的密码不一致。
+            password_too_short: 密码长度至少为8个字符。
+            success: 密码修改成功！
+    admin:
+        permissions:
+            bypass_force_change: 跳过强制密码修改

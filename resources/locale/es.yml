@@ -1,0 +1,14 @@
+jiushutech-force-password-change:
+    forum:
+        modal:
+            title: Cambiar contraseña
+            help: Por razones de seguridad, debe cambiar su contraseña antes de continuar.
+            new_password_placeholder: Nueva contraseña
+            confirm_password_placeholder: Confirmar contraseña
+            submit_button: Cambiar contraseña
+            passwords_not_match: Las contraseñas no coinciden.
+            password_too_short: La contraseña debe tener al menos 8 caracteres.
+            success: ¡Contraseña cambiada exitosamente!
+    admin:
+        permissions:
+            bypass_force_change: Omitir cambio de contraseña forzado

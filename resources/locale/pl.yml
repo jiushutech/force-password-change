@@ -1,0 +1,14 @@
+jiushutech-force-password-change:
+    forum:
+        modal:
+            title: Zmień hasło
+            help: Ze względów bezpieczeństwa musisz zmienić hasło przed kontynuowaniem.
+            new_password_placeholder: Nowe hasło
+            confirm_password_placeholder: Potwierdź hasło
+            submit_button: Zmień hasło
+            passwords_not_match: Hasła nie pasują do siebie.
+            password_too_short: Hasło musi mieć co najmniej 8 znaków.
+            success: Hasło zostało pomyślnie zmienione!
+    admin:
+        permissions:
+            bypass_force_change: Pomiń wymuszanie zmiany hasła
