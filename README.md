@@ -12,7 +12,7 @@ A Flarum extension that forces users to change their password on first login.
 
 - Forces password change on first login for admin-created users
 - No email verification required
-- Multi-language support (21 languages included)
+- Multi-language support 
 - Clean modal interface
 
 ### Installation
@@ -53,7 +53,7 @@ MIT
 
 - 管理员创建用户时自动标记需要修改密码
 - 无需邮箱验证流程
-- 支持 21 种语言
+- 支持多种语言
 - 简洁的对话框界面
 
 ### 安装方法
@@ -80,9 +80,6 @@ npm run dev    # 开发模式
 npm run build  # 生产构建
 ```
 
-### 许可证
-
-MIT
 
 ## 许可证 / License
 
