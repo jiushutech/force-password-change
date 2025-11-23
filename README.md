@@ -1,12 +1,14 @@
 # Force Password Change / 强制修改密码
 
+这是一个Flarum扩展，强制管理员创建的用户在首次登录时更改密码。
+
 [English](#english) | [简体中文](#简体中文)
 
 ---
 
 ## English
 
-A Flarum extension that forces users to change their password on first login.
+This is a Flarum extension that forces users created by administrators to change their password on their first login.
 
 ### Features
 
@@ -47,7 +49,7 @@ MIT
 
 ## 简体中文
 
-这是一个 Flarum 扩展，强制管理员创建的用户在首次登录时修改密码。
+这是一个Flarum扩展，强制管理员创建的用户在首次登录时更改密码。
 
 ### 功能特性
 
