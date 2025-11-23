@@ -1,6 +1,6 @@
 {
     "name": "jiushutech/force-password-change",
-    "description": "Force users to change password on first login",
+    "description": "This is a Flarum extension that forces users created by administrators to change their password on their first login.",
     "keywords": ["flarum", "extension", "password", "security"],
     "type": "flarum-extension",
     "license": "MIT",
