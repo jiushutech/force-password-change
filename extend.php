@@ -24,9 +24,14 @@ return [
     (new Extend\ApiSerializer(\Flarum\Api\Serializer\CurrentUserSerializer::class))
         ->attributes(Api\AddUserAttributes::class),
 
-    (new Extend\ApiSerializer(\Flarum\Api\Serializer\UserSerializer::class))
-        ->attributes(Api\AddUserAttributes::class),
-
     (new Extend\Model(User::class))
         ->cast('force_password_change', 'bool'),
+
+    (new Extend\Settings())
+        ->serializeToForum('jiushutech-force-password-change.strong_password_enabled', 'jiushutech-force-password-change.strong_password_enabled', 'boolval')
+        ->serializeToForum('jiushutech-force-password-change.min_password_length', 'jiushutech-force-password-change.min_password_length', 'intval')
+        ->serializeToForum('jiushutech-force-password-change.require_uppercase', 'jiushutech-force-password-change.require_uppercase', 'boolval')
+        ->serializeToForum('jiushutech-force-password-change.require_lowercase', 'jiushutech-force-password-change.require_lowercase', 'boolval')
+        ->serializeToForum('jiushutech-force-password-change.require_numbers', 'jiushutech-force-password-change.require_numbers', 'boolval')
+        ->serializeToForum('jiushutech-force-password-change.require_special_chars', 'jiushutech-force-password-change.require_special_chars', 'boolval'),
 ];

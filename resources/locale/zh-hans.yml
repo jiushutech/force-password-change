@@ -7,8 +7,21 @@ jiushutech-force-password-change:
             confirm_password_placeholder: 确认密码
             submit_button: 修改密码
             passwords_not_match: 两次输入的密码不一致。
-            password_too_short: 密码长度至少为8个字符。
+            password_too_short: "密码长度至少为 {min} 个字符。"
+            password_missing_uppercase: 密码必须包含至少一个大写字母。
+            password_missing_lowercase: 密码必须包含至少一个小写字母。
+            password_missing_number: 密码必须包含至少一个数字。
+            password_missing_special: 密码必须包含至少一个特殊字符。
             success: 密码修改成功！
     admin:
         permissions:
             bypass_force_change: 跳过强制密码修改
+        settings:
+            strong_password_enabled: 启用强密码要求
+            strong_password_enabled_help: 启用后，用户必须满足以下密码要求
+            min_password_length: 最小密码长度
+            min_password_length_help: "密码所需的最小字符数（默认：8）"
+            require_uppercase: 需要大写字母
+            require_lowercase: 需要小写字母
+            require_numbers: 需要数字
+            require_special_chars: 需要特殊字符

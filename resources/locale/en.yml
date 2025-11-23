@@ -7,8 +7,21 @@ jiushutech-force-password-change:
             confirm_password_placeholder: Confirm Password
             submit_button: Change Password
             passwords_not_match: Passwords do not match.
-            password_too_short: Password must be at least 8 characters long.
+            password_too_short: "Password must be at least {min} characters long."
+            password_missing_uppercase: Password must contain at least one uppercase letter.
+            password_missing_lowercase: Password must contain at least one lowercase letter.
+            password_missing_number: Password must contain at least one number.
+            password_missing_special: Password must contain at least one special character.
             success: Password changed successfully!
     admin:
         permissions:
             bypass_force_change: Bypass forced password change
+        settings:
+            strong_password_enabled: Enable Strong Password Requirements
+            strong_password_enabled_help: When enabled, users must meet the password requirements below
+            min_password_length: Minimum Password Length
+            min_password_length_help: "The minimum number of characters required for a password (default: 8)"
+            require_uppercase: Require Uppercase Letters
+            require_lowercase: Require Lowercase Letters
+            require_numbers: Require Numbers
+            require_special_chars: Require Special Characters

@@ -6,6 +6,7 @@
 # IDE
 /.idea/
 /.vscode/
+/.claude/
 *.sublime-project
 *.sublime-workspace
 .DS_Store
